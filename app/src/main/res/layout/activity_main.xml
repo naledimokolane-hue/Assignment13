@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteY="28dp" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtTime"
         android:layout_width="304dp"
         android:layout_height="70dp"
         android:ems="10"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="140dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSuggestion"
         android:layout_width="341dp"
         android:layout_height="71dp"
         android:text="Social Spark Suggestion"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="266dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnClear"
         android:layout_width="183dp"
         android:layout_height="62dp"
         android:text="Reset"
@@ -43,7 +43,7 @@
         tools:layout_editor_absoluteY="378dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtOutput"
         android:layout_width="375dp"
         android:layout_height="217dp"
         android:text="Social Spark Suggestion Output"
