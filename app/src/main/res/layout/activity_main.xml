@@ -15,4 +15,12 @@
         android:textSize="24sp"
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="143dp"
+        android:layout_height="33dp"
+        android:text="enter time of day"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="130dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
