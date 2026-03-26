@@ -16,31 +16,23 @@
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="28dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="143dp"
-        android:layout_height="33dp"
-        android:text="enter time of day"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="130dp" />
-
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="264dp"
-        android:layout_height="71dp"
+        android:layout_width="304dp"
+        android:layout_height="70dp"
         android:ems="10"
         android:hint="Enter Time of Day"
         android:inputType="text"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="165dp" />
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="140dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="334dp"
-        android:layout_height="72dp"
-        android:text="Spark Suggestion"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_width="341dp"
+        android:layout_height="71dp"
+        android:text="Social Spark Suggestion"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="266dp" />
 
     <Button
         android:id="@+id/button2"
@@ -48,13 +40,13 @@
         android:layout_height="62dp"
         android:text="Reset"
         tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="386dp" />
+        tools:layout_editor_absoluteY="378dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="337dp"
-        android:layout_height="182dp"
-        android:text="Social Suggestion Output"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="490dp" />
+        android:layout_width="375dp"
+        android:layout_height="217dp"
+        android:text="Social Spark Suggestion Output"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="480dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
