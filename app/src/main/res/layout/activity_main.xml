@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteY="224dp" />
 
     <Button
-        android:id="@+id/btnClear"
+        android:id="@+id/btnReset"
         android:layout_width="107dp"
         android:layout_height="66dp"
         android:backgroundTint="#5F176B"
@@ -31,7 +31,7 @@
         tools:layout_editor_absoluteY="446dp" />
 
     <TextView
-        android:id="@+id/txtOutput"
+        android:id="@+id/txtResult"
         android:layout_width="389dp"
         android:layout_height="176dp"
         android:text="Social Spark Suggestion will appear here..."
