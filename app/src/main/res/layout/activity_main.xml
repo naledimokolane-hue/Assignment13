@@ -13,7 +13,7 @@
         android:id="@+id/txtTime"
         android:layout_width="291dp"
         android:layout_height="70dp"
-        android:background="#781789"
+        android:background="#9730AB"
         android:ems="10"
         android:hint="Enter Time of Day"
         android:inputType="text"
@@ -64,7 +64,7 @@
         tools:layout_editor_absoluteY="136dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSubmit"
         android:layout_width="309dp"
         android:layout_height="63dp"
         android:backgroundTint="#5F0E6A"
