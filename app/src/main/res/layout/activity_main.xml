@@ -5,48 +5,71 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B876C3"
+    android:backgroundTint="#C75ED9"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="243dp"
-        android:layout_height="55dp"
-        android:text="Social Sparks App"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="28dp" />
 
     <EditText
         android:id="@+id/txtTime"
-        android:layout_width="304dp"
+        android:layout_width="291dp"
         android:layout_height="70dp"
+        android:background="#781789"
         android:ems="10"
         android:hint="Enter Time of Day"
         android:inputType="text"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="140dp" />
-
-    <Button
-        android:id="@+id/btnSuggestion"
-        android:layout_width="341dp"
-        android:layout_height="71dp"
-        android:text="Social Spark Suggestion"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="266dp" />
+        android:textColorHint="#4B0A56"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="224dp" />
 
     <Button
         android:id="@+id/btnClear"
-        android:layout_width="183dp"
-        android:layout_height="62dp"
+        android:layout_width="107dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#5F176B"
         android:text="Reset"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="378dp" />
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="446dp" />
 
     <TextView
         android:id="@+id/txtOutput"
-        android:layout_width="375dp"
-        android:layout_height="217dp"
-        android:text="Social Spark Suggestion Output"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="480dp" />
+        android:layout_width="389dp"
+        android:layout_height="176dp"
+        android:text="Social Spark Suggestion will appear here..."
+        android:textColor="#440A4E"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="318dp"
+        android:layout_height="95dp"
+        android:fontFamily="cursive"
+        android:text="Social Sparks App"
+        android:textColor="#6B0F7A"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="371dp"
+        android:layout_height="64dp"
+        android:text="Welcome Cora!! Please enter the time of day..."
+        android:textColor="#6A1478"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="309dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#5F0E6A"
+        android:text="Social Spark Suggestion"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="355dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
