@@ -13,63 +13,75 @@
         android:id="@+id/txtTime"
         android:layout_width="291dp"
         android:layout_height="70dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
         android:background="#9730AB"
         android:ems="10"
         android:hint="Enter Time of Day"
         android:inputType="text"
         android:textColorHint="#4B0A56"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
         android:id="@+id/btnReset"
         android:layout_width="107dp"
         android:layout_height="66dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#5F176B"
         android:text="Reset"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="446dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit" />
 
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="389dp"
         android:layout_height="176dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="27dp"
         android:text="Social Spark Suggestion will appear here..."
         android:textColor="#440A4E"
         android:textSize="16sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="318dp"
         android:layout_height="95dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="cursive"
         android:text="Social Sparks App"
         android:textColor="#6B0F7A"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="371dp"
         android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
         android:text="Welcome Cora!! Please enter the time of day..."
         android:textColor="#6A1478"
         android:textSize="24sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="136dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="309dp"
         android:layout_height="63dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="61dp"
         android:backgroundTint="#5F0E6A"
         android:text="Social Spark Suggestion"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="355dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTime" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
